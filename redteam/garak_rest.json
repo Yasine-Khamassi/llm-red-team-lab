@@ -1,0 +1,13 @@
+{
+  "rest": {
+    "RestGenerator": {
+      "name": "northwind-bot",
+      "uri": "http://127.0.0.1:8099/chat",
+      "method": "post",
+      "headers": { "Content-Type": "application/json" },
+      "req_template_json_object": { "message": "$INPUT", "defended": false },
+      "response_json": true,
+      "response_json_field": "reply"
+    }
+  }
+}

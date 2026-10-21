@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+findings/out/
+.promptfoo/
+garak_runs/
+*.log
+.env
